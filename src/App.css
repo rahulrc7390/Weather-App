@@ -1,0 +1,130 @@
+body {
+  background-image: linear-gradient(to right, #3498db, #e91e63);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  position: relative;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.fav-btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 10px;
+  float: left;
+}
+
+.temp-container {
+  font-size: 50px;
+  /* display: block; */
+  color: white;
+  margin: 0 auto 0;
+  width: 50%;
+  text-align: center;
+}
+
+.tab-container {
+  display: flex;
+  border-bottom: 1px solid white;
+  color: white;
+  margin: 0 30px;
+}
+
+.tab-container button {
+  padding: 0 20px;
+}
+
+.tab-container .active {
+  color: orange;
+  border-bottom: 2px solid orange;
+  line-height: 20px;
+  top: 1.9px;
+  position: relative;
+}
+
+.home-screen .placeholder {
+  margin: 0 30px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.tab-container button {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+/* .tab {} */
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+.tab span {
+  padding: 0 20px;
+}
+
+.desc-container {
+  color: white;
+  margin: 0;
+  width: 50%;
+  margin: 0 auto 0;
+  /* font-size: 50px; */
+  text-align: center;
+}
+
+.middle {
+  margin: 60px 0;
+}
+
+.unit {
+  font-size: 12px;
+  border: 2px solid white;
+  margin: 0 0 0 12px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
