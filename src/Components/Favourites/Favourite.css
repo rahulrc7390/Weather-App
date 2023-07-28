@@ -1,0 +1,48 @@
+.fav-header {
+    color: white;
+    display: flex;
+    flex: 1;
+    font-size: 10px;
+}
+
+.fav-container {
+    display: flex;
+    background-image: linear-gradient(to right, #90c4e7, #e91e63);
+    margin: 1px 0;
+}
+
+.fav-container p {
+    flex: 1;
+    line-height: 70px;
+    font-size: 25px;
+    color: white;
+}
+
+.header {
+    display: flex;
+    margin: 15px 10px;
+}
+
+.btn-remove {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.units {
+    border: none;
+    font-size: 17px;
+    padding-left: 9px;
+}
+
+.main-container {
+    margin: 0 30px
+}
+
+.no-fav {
+    margin: 100px 0 30px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    /* margin-top: 100px; */
+}

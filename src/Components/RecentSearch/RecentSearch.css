@@ -1,0 +1,67 @@
+.main-container {
+    margin: 0 30px
+}
+
+.header {
+    display: flex;
+    margin: 15px 10px;
+}
+
+.btn-remove {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.recent-conatiner {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #90c4e7, #e91e63);
+    margin: 1px 0;
+}
+
+.header {
+    display: flex;
+}
+
+.header h2 {
+    color: white;
+
+}
+
+.header .btn-recent {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.recent-searches .header .hd-content {
+    display: flex;
+    flex: 1;
+    font-size: 10px;
+}
+
+.no-recent {
+    margin: 100px 0 30px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.recent-row {
+    display: flex;
+    margin: 1px 0;
+    background-image: linear-gradient(to right, #90c4e7, #e91e63);
+}
+
+.recent-row p {
+    flex: 1;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.recent-row .temp-container {
+    font-size: 40px;
+}
